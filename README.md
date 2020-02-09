@@ -5,7 +5,7 @@ This is a project template for svelte draft apps, and it's adapted from https://
 ## Run
 
 ```
-> npm run install
+> npm install
 > npm run dev
 ```
 
