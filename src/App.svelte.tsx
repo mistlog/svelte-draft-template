@@ -1,4 +1,4 @@
-import Link from "./component/Link";
+import Link from "./component/Link.svelte";
 
 export interface IAppProps
 {
