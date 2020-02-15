@@ -4,22 +4,9 @@ This is a project template for svelte draft apps, and it's adapted from https://
 
 ## Run
 
-### Need help
-
-see: 
-* https://github.com/mistlog/svelte-draft-template/issues/3
-* https://github.com/sveltejs/svelte/issues/3677#issuecomment-585496141.
-
-Temp fix:
-
 ```shell
 > npm install
-> npm run transcribe:watch
-```
-
-then, in another window:
-```shell
-> npx rollup -c -w
+> npm run dev
 ```
 
 ## License
