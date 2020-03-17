@@ -1,10 +1,6 @@
+//@ts-check
 import App from './App';
+import { createRenderFunction } from 'svelte-draft/utility';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
-
-export default app;
+const render = createRenderFunction(document.body, App, { name: 'world' });
+export default render;

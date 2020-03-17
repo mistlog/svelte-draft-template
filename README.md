@@ -1,6 +1,6 @@
-# Svelte Draft Template App
+# SvelteDraft Template
 
-This is a project template for svelte draft apps, and it's adapted from https://github.com/sveltejs/template.
+This is a project template for svelte-draft apps, and it's adapted from https://github.com/sveltejs/template.
 
 Online playground: https://codesandbox.io/s/svelte-draft-template-586o5
 
