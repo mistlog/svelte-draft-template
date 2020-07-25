@@ -1,4 +1,3 @@
-//@ts-check
 import App from './App';
 import { createRenderFunction } from 'svelte-draft/utility';
 
