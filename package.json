@@ -12,6 +12,7 @@
     "@rollup/plugin-typescript": "^5.0.2",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-globals": "^1.4.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-svelte-draft": "0.0.5",
     "rollup-plugin-terser": "^5.1.2",
@@ -20,6 +21,7 @@
     "svelte-types": "0.0.6"
   },
   "dependencies": {
+    "emotion": "^10.0.27",
     "sirv-cli": "^0.4.4"
   }
 }

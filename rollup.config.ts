@@ -5,6 +5,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import svelte_draft from 'rollup-plugin-svelte-draft';
 import typescript from '@rollup/plugin-typescript';
+import globals from 'rollup-plugin-node-globals';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -44,6 +45,7 @@ export default {
 			dedupe: ['svelte']
 		}),
 		commonjs(),
+		globals(),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated
