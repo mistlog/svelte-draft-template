@@ -9,12 +9,15 @@ export default function App(props: IAppProps) {
     const { name } = props;
 
     const styles = {
-        title: css({
-            textAlign: "center",
-            padding: "1em",
-            maxWidth: "240px",
-            margin: "0 auto"
-        }),
+        main: css(`
+            text-align: center;
+            padding: 1em;
+            max-width: 240px;
+            margin: 0 auto;
+            @media (min-width: 640px) {
+                max-width: none;
+            }
+        `),
         text: css({
             color: "#ff3e00",
             textTransform: "uppercase",
@@ -23,7 +26,7 @@ export default function App(props: IAppProps) {
         })
     };
 
-    <main class={styles.title}>
+    <main class={styles.main}>
         <h1 class={styles.text}>Hello {name}!</h1>
         <p>Visit the <Link url="https://svelte.dev/tutorial" text="Svelte tutorial" /> to learn how to build Svelte apps.</p>
     </main>

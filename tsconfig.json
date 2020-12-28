@@ -4,9 +4,6 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "jsx": "preserve",
-        "typeRoots": [
-            "./node_modules/svelte-types",
-            "./node_modules/@types"
-        ]
+        "esModuleInterop": true
     }
 }

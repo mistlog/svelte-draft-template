@@ -2,26 +2,24 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c rollup.config.ts",
-    "dev": "rollup -c rollup.config.ts -w",
-    "start": "sirv public"
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js -w",
+    "start": "sirv public --single --port 5000"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.0",
-    "@rollup/plugin-node-resolve": "^7.0.0",
-    "@rollup/plugin-typescript": "^5.0.2",
-    "rollup": "^1.20.0",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.28.2",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-node-globals": "^1.4.0",
-    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-svelte": "^5.1.1",
     "rollup-plugin-svelte-draft": "0.0.5",
     "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.18.1",
-    "svelte-draft": "0.1.5",
-    "svelte-types": "0.0.6"
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.31.0",
+    "svelte-types": "0.0.7"
   },
   "dependencies": {
-    "emotion": "^10.0.27",
-    "sirv-cli": "^0.4.4"
+    "emotion": "^10.0.27"
   }
 }
