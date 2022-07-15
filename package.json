@@ -16,7 +16,7 @@
     "rollup-plugin-svelte-draft": "0.0.5",
     "rollup-plugin-terser": "^5.1.2",
     "sirv-cli": "^0.4.4",
-    "svelte": "^3.31.0",
+    "svelte": "^3.49.0",
     "svelte-types": "0.0.7"
   },
   "dependencies": {
